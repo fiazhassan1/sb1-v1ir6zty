@@ -1,0 +1,5 @@
+# Agent instructions — QAITEK website source candidate
+
+Read [AI operating rules](docs/AI-OPERATING-RULES.md), [project roles](docs/PROJECT-ROLES.md), [task discipline](docs/PROJECT-TASK-DISCIPLINE.md), [environment setup record](docs/ENVIRONMENT-SETUP.md) and [historical audit](docs/POLICY-RECOVERY-AUDIT.md) at every start/resume/handover. Follow R1–R6 and latest explicit Fiaz decisions. Never use the PO as messenger; never delete work without explicit removal approval. Remain in ChatGPT rather than Work until Fiaz explicitly chooses otherwise; never suggest switching while work is unfinished or without proper handover. R6 governs ChatGPT/Codex surfaces; independently evidenced Claude-specific preferences remain separate.
+
+Run `python3 scripts/verify_agent_policy.py --root . --manifest policy/agent-policy.json`. Claude develops/STED and ChatGPT/Codex BA/independent QA according to the portfolio matrix; this Codex-authored process checkpoint requires Claude's independent review. No self-review/self-merge. Business values are configurable. Current deployment/source mapping is UNKNOWN; no hosting/DNS/production changes or sending operations.
